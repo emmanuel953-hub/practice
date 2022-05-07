@@ -1,0 +1,157 @@
+body {
+    line-height: 1.8;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #11245a;
+}
+
+.title-sm {
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}
+
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+img {
+    width: 100%;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+section {
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+
+.navbar{
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #11245a !important;
+}
+.navbar .nav-link{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #e93b89;
+}
+
+#home{
+    background:linear-gradient(rgba(17, 34, 90, 0.8),rgba(17,34,90,0.8)), url(../images/olena-sergienko-p8NSgvjEk-Y-unsplash.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#home h1 {
+    font-weight: 700;
+}
+
+#home p {
+    max-width: 550px;
+    margin:18px auto;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px ;
+    border-radius: 0;
+}
+
+.btn-brand {
+    border-color: #e93b89;
+    color: white;
+}
+
+.btn-brand:hover {
+    background-color: #e93b89;
+    color: white;
+}
+
+.section-intro {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-intro .hline {
+    width: 120px;
+    height: 2px;
+    background-color: red;
+    margin: 16px auto 0 auto;
+}
+
+#weight {
+    font-weight: 900;
+    font-size: large;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #e93b89;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 32px;
+}
+
+.portfolio-item {
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-item img,
+.portfolio-item .portfolio-overlay {
+    transition: all 0.4s ease;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 36, 90, 0.8);
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    opacity: 0;
+}
+
+.portfolio-overlay h3,
+.portfolio-overlay h6 {
+    color: white;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+.portfolio-item:hover img{
+    transform: scale(1.1);
+}
