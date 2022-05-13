@@ -12,7 +12,7 @@ label{
     display: block;
 }
 #card{
-  background-image: url(../images/sigmund-By-tZImt0Ms-unsplash.jpg) !important;
+  background-image: url(./img/IMG_20220401_122001.jpg) !important;
 }
 emski{
     color: blue;
@@ -20,4 +20,59 @@ emski{
 #brand{
     font-family: 'Times New Roman', Times, serif;
     color: red;
+}
+#home p {
+    max-width: 550px;
+    margin:18px auto;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 28px ;
+    border-radius: 0;
+}
+
+.btn-brand {
+    border-color: #e93b89;
+    color: white;
+}
+
+.btn-brand:hover {
+    background-color: #e93b89;
+    color: white;
+}
+
+.section-intro {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-intro .hline {
+    width: 120px;
+    height: 2px;
+    background-color: red;
+    margin: 16px auto 0 auto;
+}
+
+#weight {
+    font-weight: 900;
+    font-size: large;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #e93b89;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 32px;
+}
+
+#identity {
+    background-image:url(./img/john-towner-JgOeRuGD_Y4-unsplash.jpg) ;
+    color: aliceblue;
 }
