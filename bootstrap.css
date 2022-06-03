@@ -5,8 +5,17 @@ body{
     background-repeat:no-repeat ;
     background-size:1300px;
 }
-.container-fluid{
+
+.navbar {
+    background-color: rgb(38, 38, 109);
+}
+#red{
     border-bottom:5px solid red;
+    
+}
+
+.conglomerate {
+    text-decoration: underline;
 }
 label{
     display: block;
@@ -73,6 +82,78 @@ emski{
 }
 
 #identity {
-    background-image:url(./img/john-towner-JgOeRuGD_Y4-unsplash.jpg) ;
+    background-color: rgb(24, 40, 75);
     color: aliceblue;
+}
+
+#welcome {
+    text-align: center;
+    background-image:url(./img/gradienta-m_7p45JfXQo-unsplash.jpg) ;
+    font-size:50px ;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #e93b89;
+}
+
+.page {
+    margin: auto;
+}
+
+#cta {
+    background-color: #e93b89;
+    color: aliceblue;
+    height: 90px;
+    align-items: center;
+    height: 100px;
+    padding: 15px;
+    justify-content: center;
+}
+
+#png {
+    background-color: #e93b89;
+    margin: auto;
+    padding: px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#testimonials img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    transition: all 0.4s ease;
+    
+}
+
+#testimonials img :hover{
+    transition: all 0.4s ease;
+    transform: scale(1.5);
+
+}
+
+#testimonials .nav-pills .nav-link.active {
+    background-color: transparent;
+}
+
+#testimonials .nav-pills .nav-link.active {
+    transform: scale(1.5);
+}
+
+.reviews .stars {
+    color: #e93b89;
+    max-width: 720px;
+    margin: 24px auto;
+    font-style:italic ;
+    
+}
+
+
+#handle {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
