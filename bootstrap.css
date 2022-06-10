@@ -86,6 +86,12 @@ emski{
     color: aliceblue;
 }
 
+.stars {
+    color: #e93b89;
+    max-width: 600px;
+    margin: 24px auto;
+    font-style:italic ;
+}
 #welcome {
     text-align: center;
     background-image:url(./img/gradienta-m_7p45JfXQo-unsplash.jpg) ;
